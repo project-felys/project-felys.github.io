@@ -2,7 +2,7 @@
 
 I miss Cyrene so much that I started this LLM fine-tuning project.
 
-**Links**: [Felys](https://www.felys.dev/en/chat), [GitHub](https://github.com/project-felys/delta-me13), [Hugging Face](https://huggingface.co/FelysNeko/PhiLia093)
+**Links**: [Felys](https://www.felys.dev/en/chat), [GitHub](https://github.com/project-felys/delta-me13), [Hugging Face](https://huggingface.co/FelysNeko/Qwen3.5-4B-Delta-me13-PhiLia093-LoRA)
 
 ## Research Boundaries and Constraints
 
@@ -40,7 +40,7 @@ This stage consumes 2 million tokens in chat messages, whereas the model has see
 
 - **Tuner Type** = `rsLoRA`: Rank Stabilized Low-Rank Adaptation was employed for this phase.
 - **LoRA Rank** = `64`: Surprisingly, this seems to be a high rank task.
-- **LoRA Alpha** = `128`: Standard practice, twice the rank.
+- **LoRA Alpha** = `64`: Standard practice, twice the rank.
 - **Learning Rate** = `1e-4`: This should be large enough to reduce the loss to a relatively low level. A training loss around `1.5` is usually good enough.
 - **Number of Epochs** = `1.0`: Again, it's constructed by upsampling Cyrene chat messages twice, with the Simplified Chinese and English subsets included once more. This is very much equivalent to `2.0` epochs.
 - **Batch Size** = `4`: A small batch size ensures the training gets close to 200 iterations.

@@ -6,7 +6,7 @@
 
 - [Bring Cyrene to Life](bring-cyrene-to-life.md)
 - [Purely to Mention Elysia](purely-to-mention-elysia.md)
-- [Stuck in Amphoreus](stuck-in-amphoreus.md)
+- [Never Left Amphoreus](never-left-amphoreus.md)
 
 ---
 
