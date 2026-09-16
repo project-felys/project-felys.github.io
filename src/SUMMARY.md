@@ -12,3 +12,4 @@
 
 [病者的粉色遐想♪](some-pink-reverie.md)
 [解构](deconstruct.md)
+[更多重力系发言，慎看](too-heavy.md)
