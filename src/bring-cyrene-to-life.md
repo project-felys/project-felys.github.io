@@ -45,6 +45,6 @@ This stage consumes 2 million tokens in chat messages, whereas the model has see
 - **Number of Epochs** = `1.0`: Again, it's constructed by upsampling Cyrene chat messages twice, with the Simplified Chinese and English subsets included once more. This is very much equivalent to `2.0` epochs.
 - **Batch Size** = `4`: A small batch size ensures the training gets close to 200 iterations.
 
-## Conclusion
+## Apologies
 
 Well, I originally wanted to share some know-how, but I realized it might be misleading, given that people may have very different settings. Nevertheless, the most critical thing is to always have a stable performance evaluation process, and then ignore the noise such as a 1% improvement, which means nothing.
