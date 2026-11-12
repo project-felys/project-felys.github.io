@@ -12,6 +12,6 @@ You may find a leaderboard at [artificialanalysis.ai](https://artificialanalysis
 
 TTS models are much smaller than large language models (LLMs), so it is possible for me to work on it locally with an RTX 5070 Ti (16GB) for supervised fine-tuning. Adding another 4070 Super (12GB), giving me dual cards, enables local reinforcement learning. However, it is quite unstable due to hardware and the Windows Subsystem for Linux (WSL2).
 
-## Apologies
+## Epilogue
 
 I'm too lazy to write a blog post about this. In short, you might want to use a low learning rate like `5e-6` with one or two epochs for SFT. You only need to tune the talker and text projection to get really good results. This is not a low-rank task, so don't try LoRA. The base model is quite robust. GRPO might not help that much unless your SFT stage is massive.

@@ -30,6 +30,6 @@ This entire project contains two major subsystems: the programming language (com
 
 Recall that all variables are immutable; common designs like PyTorch do not work because they store and modify gradients inside the graph. This does not affect dynamic computation graph building, so native flow control is fully usable. The only difference is that gradients must be stored explicitly outside the graph. This is not great for an interface, but it does allow people to see the magic behind it.
 
-## Apologies
+## Epilogue
 
 I started this project in 2023. There is too much I could talk about, and I don't even know where to start. I will add more algorithm-related topics in the future. There are lots of coding bad practices, and I did not want to fix them until I worked in the industry. I am planning another round of reconstruction, but I'm unsure when I will start it.
